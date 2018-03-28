@@ -36,6 +36,7 @@ http://www.springframework.org/schema/tx/spring-tx-3.2.xsd ">
 	
 	
 	<!-- 静态资源映射 -->
+	<mvc:default-servlet-handler/>
 	<mvc:resources location="/images/" mapping="/images/**"/>
 	<mvc:resources location="/product_img/" mapping="/product_img/**"/>	
 	<mvc:resources location="/js/" mapping="/js/**"/>	
